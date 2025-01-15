@@ -1,0 +1,121 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Products Section */
+#products {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Cart Section */
+#cart-items {
+    padding: 2rem;
+}
+
+#total {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+#checkout-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+#checkout-button:hover {
+    background-color: #555;
+}
+
+/* Checkout Form */
+#checkout-form {
+    padding: 2rem;
+}
+
+#checkout-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#checkout-form label,
+#checkout-form input {
+    width: 100%;
+    margin: 10px 0;
+}
+
+#checkout-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+#checkout-form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
